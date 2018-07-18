@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+div {
+    display: flex;
+}
+
+.work_area {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.navigation {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    background-color: #999;
+    border: 1px #666 solid;
+}
+
+.navigation_bar {
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+    margin: 7px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.search_box{
+    height: 22px;
+    width: 200px;
+    border:solid 1px #666;
+    border-radius: 5px;
+    margin: auto 7px;
+}
+
+.block_bar {
+    width: 40px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0;
+    flex-grow: 1;
+
+}
+
+.container {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.directory {
+    width: 20%;
+    min-width: 200px;
+    flex-direction: column;
+    border-right: 1px solid #999;
+    overflow: auto;
+}
+
+.first_directory{
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.add_new_directory{
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    background-color: #666;
+    justify-self: flex-end;
+}
+
+.directory_block{
+    width: 30px;
+    height: 100%;
+}
+
+.first_directory_item {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+}
+.first_directory_text{
+    height: 100%;
+    flex-grow: 1;
+}
+
+.second_directory_item {
+    width: 100%;
+    height: 64px;
+}
+
+.second_directory_text{
+    height: 100%;
+    border-bottom: 1px solid #666;
+    flex-grow: 1;
+}
+
+.second_directory_back_block{
+    width: 30px;
+    height: 100%;
+    border-bottom: 1px solid #666;
+}
+
+.text_container {
+    min-width: 300px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.timestamp {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    justify-content: center;
+}
+
+.text_area {
+    width: 100%;
+    flex-grow: 1;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
