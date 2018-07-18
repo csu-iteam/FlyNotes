@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 div {
@@ -21,8 +22,8 @@ div {
     height: 36px;
     line-height: 36px;
     margin: 0;
-    background-color: #999;
-    border: 1px #666 solid;
+    background-color: #ccc;
+    border-bottom: 1px #666 solid;
 }
 
 .navigation_bar {
@@ -32,12 +33,20 @@ div {
     margin: 7px;
     justify-content: center;
     border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.5s;
 }
 
-.search_box{
+.navigation_bar:hover {
+    background-color: #aaa;
+    transition: 0.5s;
+}
+
+.search_box {
     height: 22px;
     width: 200px;
-    border:solid 1px #666;
+    border: solid 1px #666;
     border-radius: 5px;
     margin: auto 7px;
 }
@@ -61,16 +70,17 @@ div {
     min-width: 200px;
     flex-direction: column;
     border-right: 1px solid #999;
+    background-color: #ddd;
     overflow: auto;
 }
 
-.first_directory{
+.first_directory {
     width: 100%;
     flex-grow: 1;
     flex-direction: column;
 }
 
-.add_new_directory{
+.add_new_directory {
     width: 100%;
     height: 28px;
     line-height: 28px;
@@ -78,7 +88,7 @@ div {
     justify-self: flex-end;
 }
 
-.directory_block{
+.directory_block {
     width: 30px;
     height: 100%;
 }
@@ -88,7 +98,8 @@ div {
     height: 28px;
     line-height: 28px;
 }
-.first_directory_text{
+
+.first_directory_text {
     height: 100%;
     flex-grow: 1;
 }
@@ -98,13 +109,13 @@ div {
     height: 64px;
 }
 
-.second_directory_text{
+.second_directory_text {
     height: 100%;
     border-bottom: 1px solid #666;
     flex-grow: 1;
 }
 
-.second_directory_back_block{
+.second_directory_back_block {
     width: 30px;
     height: 100%;
     border-bottom: 1px solid #666;
@@ -115,6 +126,8 @@ div {
     flex-grow: 1;
     flex-wrap: wrap;
     flex-direction: column;
+    /*background-color: khaki;*/
+    background-color: rgb(255, 251, 240)
 }
 
 .timestamp {
@@ -122,16 +135,17 @@ div {
     height: 22px;
     line-height: 22px;
     justify-content: center;
+    color: #666666;
 }
 
 .text_area {
-    width: 100%;
+    min-width: 300px;
     flex-grow: 1;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 30px;
     border: none;
     box-shadow: none;
     outline: none;
+    background-color: rgb(255, 251, 240);
 }
 
 
